@@ -1,21 +1,11 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.db
-*.sqlite3
-*.env
-venv/
-ENV/
-.env
-# OS
+# Ignore git metadata
+.git
+.gitignore
+
+# Node or editor related files (just in case)
+node_modules
+*.log
+
+# OS/system files
 .DS_Store
 Thumbs.db
-# Editor
-.vscode/
-.idea/
-# Docker
-*.dockerignore
-docker-compose.yml
- 
